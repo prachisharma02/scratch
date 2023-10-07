@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class multiplication {
+
+ class multiplication {
     public static void multiply(int n){
         for(int i=1;i<=10;i++){
             int m=n*i;

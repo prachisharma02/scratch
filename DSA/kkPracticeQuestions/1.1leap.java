@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class leap {
+class leap {
     public static boolean leap(int year) {
       //  boolean leap=false;
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
