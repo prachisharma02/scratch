@@ -32,6 +32,6 @@ public class datatype {
     
             // int x = 10.0;
             // System.out.println(x);
-            
+           
     }
 }
