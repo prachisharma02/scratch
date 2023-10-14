@@ -19,6 +19,12 @@ class increment {
         boolean b = true;
        // b++; //invalid cuz its non numeric
         System.out.println(b);
+        byte s = 127;
+        // s = s + 1; // due to change from byte to int
+        System.out.println(s);
+        s += 1; // INTERNAL WORKING WILL BE S=(BYTE)S+1 convrerting from int as +1 is int type //-128
+        s++; // increment in byte only it is just increasing the value not converting from int to byte so -127
+        System.out.println(s);
     }
     
 }
