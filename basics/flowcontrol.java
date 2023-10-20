@@ -7,5 +7,6 @@ public class flowcontrol {
 //      }
 //      else
 //      System.out.println(9);
-//  }
+if(true)System.out.println("hello"); // valid
+ }
 }
