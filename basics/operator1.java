@@ -14,7 +14,7 @@ public class operator1 {
         // BITWISE OPERATORS => &(AND) |(OR) ^(X-OR) 
         // & RETURNS TRUE ONLY IF BOTH THR=E ARGUMENTS ARE TRUE
         // | RETURNS TRUE IF ATLEAST ONE ARGUMENT IS TRUE
-        // ^ RETURNS TRUE IF BOTH ARGUMENST ARE DIFFERENT ELSE IF SBOTH ARGUMENTS ARE SAME IT WILL RETURN FALSE
+        // ^ RETURNS TRUE IF BOTH ARGUMENST ARE DIFFERENT ELSE IF BOTH ARGUMENTS ARE SAME IT WILL RETURN FALSE
         // System.out.println(true & false); //false
         // System.out.println(true | false); // true
         // System.out.println(true ^ false); // true
