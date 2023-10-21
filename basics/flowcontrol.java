@@ -29,5 +29,20 @@ else // this else is related to nearest if means above this hello if
 //                      SWITCH STATEMENTS ONLY CONTAIN INT BOOLEAN CHAR BYTE SHORT STRING ALL WRAPPER CLASS
 
 // NOT FLOAT DOUBLE LONG
+
+
+
+int a = 10;
+final int b = 20; // making it final makes b constant then valid 
+switch (a) {
+    case 10:
+        System.out.println("hi");
+    case b: // ERROR every case must be constant not a variable
+    System.out.println("hwllo");
+}
+
+
+
+
 }
 }
